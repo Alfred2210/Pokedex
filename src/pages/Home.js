@@ -24,7 +24,7 @@ const Home = () => {
 
     return (
         <>
-            <h1 style={{ width: "80%", margin: "auto" }}>Pokemon</h1>
+
             {Pokemonlist}
         </>
     );

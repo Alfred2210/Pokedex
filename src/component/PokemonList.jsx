@@ -45,8 +45,8 @@ const PokemonList = ({ id, nom, type, image }) => {
             }}
         >
             <img src={image} alt={nom} />
-            <p>Nom: {nom}</p>
-            <p>Type: {type}</p>
+            <p className="text-2xl">{nom}</p>
+            <p className="text-xl">{type}</p>
             <Link to={`/details/${id}`}>Details</Link>
         </div>
     );
